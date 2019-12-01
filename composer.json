@@ -1,0 +1,20 @@
+{
+  "name": "flexice/bridgebuilder",
+  "description": "is bridge for php apps",
+  "minimum-stability": "dev",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "flexice",
+      "email": "get.flexice@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "flexice\\xapps\\": "src/flexice/xapps"
+    }
+  },
+  "require-dev": {
+    "beyondcode/laravel-dump-server": "1.3.0"
+  }
+}
